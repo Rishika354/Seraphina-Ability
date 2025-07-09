@@ -31,7 +31,7 @@ def display_severe_depression_tips():
     print("- Consider helplines or support groups.")
 
 # Load the dataset
-f = "ML-DataSet_5.csv"
+f = "seraphina_dataset.csv"
 df = pd.read_csv(f)
 df1 = df.drop(['f_id', 'duplicate_x', 'duplicate_y', 'duplicate_z', 'duplicate_v', 'duplicate_w', 
                'duplicate_a', 'dup_b', 'dup_c', 'Anxeity_Rec'], axis=1)
